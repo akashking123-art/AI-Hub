@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AI HUB</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Three.js CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+
+  <!-- Background -->
+  <canvas id="bg"></canvas>
+
+  <!-- Navbar -->
+  <header class="navbar">
+
+    <h1 class="logo">AI HUB</h1>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#models">Models</a>
+      <a href="#chat">Chat</a>
+      <a href="#about">About</a>
+    </nav>
+
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+
+    <h2>
+      Free AI Models Platform 🚀
+    </h2>
+
+    <p>
+      Chat with Llama3, DeepSeek, Mistral, Gemma and more.
+    </p>
+
+    <button>
+      Start Free
+    </button>
+
+  </section>
+
+  <!-- Models -->
+  <section id="models" class="models">
+
+    <div class="card">
+      <h3>Llama 3</h3>
+      <p>Best general AI model.</p>
+    </div>
+
+    <div class="card">
+      <h3>DeepSeek</h3>
+      <p>Powerful coding AI.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mistral</h3>
+      <p>Fast lightweight AI.</p>
+    </div>
+
+    <div class="card">
+      <h3>Gemma</h3>
+      <p>Google open AI model.</p>
+    </div>
+
+  </section>
+
+  <!-- Chat -->
+  <section id="chat" class="chat-section">
+
+    <h2>AI Chat</h2>
+
+    <!-- Select Model -->
+    <select id="modelSelect">
+
+      <option value="llama3">
+        Llama 3
+      </option>
+
+      <option value="deepseek-r1">
+        DeepSeek R1
+      </option>
+
+      <option value="mistral">
+        Mistral
+      </option>
+
+      <option value="gemma">
+        Gemma
+      </option>
+
+      <option value="phi3">
+        Phi 3
+      </option>
+
+      <option value="codellama">
+        Code Llama
+      </option>
+
+    </select>
+
+    <!-- Chat Box -->
+    <div id="chatBox" class="chat-box">
+
+      <div class="bot-message">
+        👋 Hello! Ask anything.
+      </div>
+
+    </div>
+
+    <!-- Input -->
+    <div class="chat-input">
+
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Type message..."
+      />
+
+      <button onclick="sendMessage()">
+        Send
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- About -->
+ <section id="about" class="about">
+
+  <h2>About</h2>
+
+  <p>
+    Explore trending AI models like Llama 3, DeepSeek and Mistral 🚀
+    <br>
+    One platform for fast, free and powerful AI conversations.
+  </p>
+
+</section>
+
+  <!-- Footer -->
+  <footer>
+    © 2026 AI HUB
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="three-bg.js"></script>
+
+</body>
+
+</html>
