@@ -119,4 +119,8 @@ http://localhost:11434/api/generate
 - AI Agents
 
 ---
+# Image's
 
+<img width="1899" height="994" alt="image" src="https://github.com/user-attachments/assets/7a50e8a3-03bb-4b84-b075-4c1b0c4befe5" />
+
+<img width="1905" height="950" alt="image" src="https://github.com/user-attachments/assets/0dd15a89-b03e-4a4f-b62c-f72420b5daaf" />
